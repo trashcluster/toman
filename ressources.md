@@ -3,3 +3,4 @@ python-valve, RCON source : https://python-valve.readthedocs.io/en/latest/rcon.h
 Django tuto : https://www.youtube.com/watch?v=tkzIZNIb_gA&list=PLxhnp_qsD8ENSAazjTbUWbfIA7j0-m5Ww&index=5
 quick start docker django : https://docs.docker.com/compose/django/
 django intro  :https://docs.djangoproject.com/en/3.1/topics/install/#installing-official-release
+toornament developer website  :https://developer.toornament.com/v2/overview/get-started
