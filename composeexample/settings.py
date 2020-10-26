@@ -25,7 +25,7 @@ SECRET_KEY = 'h&)ol)$utq2-oc(x&_ygtj$)aa_%%a7q55#l4v#-5u_4ku+v7s'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["toman.trashcluster.com"]
 
 
 # Application definition
