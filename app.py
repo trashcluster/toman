@@ -3,8 +3,7 @@ from valve.rcon import *
 
 app = Flask(__name__)
 
-valve.rcon.execute(("85.10.205.252",27015),"password","")
-mongodb+srv://tomandb:$MONGODBPASSWORD@toman-cluster.m5fe4.mongodb.net/$DBNAME?retryWrites=true&w=majority
+valve.rcon.execute(("85.10.205.252",27015),"password","help")
 
 @app.route('/')
 def hello():
