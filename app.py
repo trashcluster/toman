@@ -1,5 +1,6 @@
 from flask import Flask
-from valve.rcon import *
+from flask_restful import Resource, Api
+import valve.rcon
 
 app = Flask(__name__)
 
