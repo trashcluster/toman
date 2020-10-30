@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, request
 from flask_restful import Resource, Api
 import valve.rcon
 
@@ -11,7 +11,8 @@ class HelloWorld(Resource):
     def get(self):
         return {'hello': 'world'}
     def put(self):
-        return {self}
+        putdata = request.form['ayy']
+        return {'put' : putdata}
 
 
 api.add_resource(HelloWorld, '/')
