@@ -10,6 +10,9 @@ valve.rcon.execute(("85.10.205.252",27015),"password","help")
 class HelloWorld(Resource):
     def get(self):
         return {'hello': 'world'}
+    def put(putvar):
+        return {putvar}
+
 
 api.add_resource(HelloWorld, '/')
 
