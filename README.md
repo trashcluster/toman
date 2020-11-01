@@ -27,3 +27,9 @@ I am also setting up the project page to keep track of the functions
 
 pymongo W3S doc : https://www.w3schools.com/python/python_mongodb_getstarted.asp
 flask-restful official doc : https://flask-restful.readthedocs.io/en/latest/
+
+## 31/10/2020  
+
+avanced a bit on the user, group, roles fields.
+Found out thst the way i used in the program to initialize vars isn't so nice. Check https://blog.tecladocode.com/marshmallow-serialization-mongodb-python/.
+
