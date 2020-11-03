@@ -1,0 +1,28 @@
+
+*** These modified files were found in JOE when it aborted on Mon Nov  2 09:42:20 2020
+*** JOE was aborted by UNIX signal 1
+
+*** File '/home/debian/toman/.git/COMMIT_EDITMSG'
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Committer: Debian <debian@toman.trashcluster.com>
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# C
+
+
+*** File '(Unnamed)'
+/home/debian/toman/.git/COMMIT_EDITMSG
+/home/debian/toman/.git/COMMIT_EDITMSG
+* Build Log *
+/home/debian/toman/.git/COMMIT_EDITMSG
+
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
