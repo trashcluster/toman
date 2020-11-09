@@ -64,7 +64,7 @@ class UserCreate(Resource):
         return {'405 error': 'use this endpoint to create a user, send a put request'}, 405
 
     # PUT request, create a user entry in the database
-    def put(self):
+    def post(self):
         putdata = request.form['username']
         putdata += request.form['name']
         putdata += request.form['firstname']
@@ -75,10 +75,22 @@ class UserCreate(Resource):
         Database.insert("UserCol", {'userid' : 'YEET', 'username' : putdata})
         return putdata, 200
 
+class ServerList(Resource):
+    Database.initialize("tomandb")
+    def get(self):
+        #list all servers
+        serverlist = Database.read("ServerCol","")
+        return serverlist
 
+class ServerCreate(Resource):
+    Database.initialize("tomandb")
+    def post(self):
+        
 
 api.add_resource(UserCreate, '/api/v1/user/create')
 #api.add_resource(UserList, '/api/v1/user/list')
+api.add_resource(ServerList, '/api/v1/server/list')
+
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host="0.0.0.0")

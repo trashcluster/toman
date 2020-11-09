@@ -31,7 +31,10 @@ class Database:
     def read(cls, collection, query):
         return_dict=[]
         cls.collection = cls.database[collection]
-        x = cls.collection.find(query)
+        if query == "":
+            x = cls.collection.find()
+        else:
+            x = cls.collection.find(query)
         for i in x:
             return_dict.append(i)
         return return_dict
