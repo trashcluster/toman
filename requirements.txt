@@ -1,5 +1,5 @@
 flask
 flask-restful
-valve-python
+python-valve
 pymongo
 dnspython
