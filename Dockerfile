@@ -1,4 +1,4 @@
-FROM python
+FROM python:alpine
 
 RUN apt install openssl libstdc++
 RUN pip install --upgrade pip
