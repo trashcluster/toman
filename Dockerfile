@@ -9,4 +9,6 @@ ADD ./database.py .
 ADD ./csgo.py .
 ADD ./app.py .
 
+EXPOSE 5000
+ENV MONGODBURL changeme
 CMD python /app.py
