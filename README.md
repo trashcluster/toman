@@ -33,3 +33,6 @@ flask-restful official doc : https://flask-restful.readthedocs.io/en/latest/
 avanced a bit on the user, group, roles fields.
 Found out thst the way i used in the program to initialize vars isn't so nice. Check https://blog.tecladocode.com/marshmallow-serialization-mongodb-python/.
 
+## 09/11/2020
+
+User managment set aside. Focusing on srcds server managment - add server in database, check server status and show it in the api.
