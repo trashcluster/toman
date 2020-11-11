@@ -1,6 +1,7 @@
 FROM python:alpine
 
-RUN apt install openssl libstdc++
+
+#RUN apt install openssl libstdc++
 RUN pip install --upgrade pip
 COPY ./requirements.txt ./
 RUN pip install -r requirements.txt
