@@ -85,6 +85,7 @@ class ServerList(Resource):
 class ServerCreate(Resource):
     Database.initialize("tomandb")
     def post(self):
+        return
         
 
 api.add_resource(UserCreate, '/api/v1/user/create')
