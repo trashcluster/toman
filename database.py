@@ -29,7 +29,7 @@ class Database:
 
     @classmethod
     def read(cls, collection, query):
-        return_dict=[]
+        return_dict={}
         cls.collection = cls.database[collection]
         if query == "":
             x = cls.collection.find()

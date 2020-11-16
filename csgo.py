@@ -1,8 +1,4 @@
-from database import Database
 from valve.rcon import *
+from dns import *
 
-
-def check_server_state(ip):
-    Database.initialize("tomandb")
-    if ip == "":
-        Database.read("ServerCol","{},{ip: 1}")
+def isOnline(ip,rconpassword):
